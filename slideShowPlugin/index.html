@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Side Show Plugin</title>
+	<link rel="stylesheet" type="text/css" href="devheart-examples.css" />
+</head>
+<style type="text/css">
+#center-wrapper {
+	
+}
+#slideshow img, #slideshow_1 img {
+	display: none;
+	position: absolute;
+}
+
+#slideshow_1 img {
+	left:300px;
+}
+</style>
+<body>
+
+<div id="center-wrapper">
+
+	<div id="slideshow">		
+		<img src="img/1-add.jpg" alt="" />
+		<img src="img/2-add.jpg" alt="" />
+		<img src="img/3-add.jpg" alt="" />
+		<img src="img/4-add.jpg" alt="" />
+		<img src="img/5-add.jpg" alt="" />
+		<img src="img/6-add.jpg" alt="" />
+	</div>
+	
+	<div id="slideshow_1">		
+		<img src="img/logo-1.png" alt="" />
+		<img src="img/logo-2.png" alt="" />
+		<img src="img/logo-3.png" alt="" />
+		<img src="img/logo-4.png" alt="" />
+		<img src="img/logo-5.png" alt="" />
+		<img src="img/logo-6.png" alt="" />
+	</div>
+
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.simpleslideshow.js"></script>
+<script type="text/javascript">
+$.simpleSlideShow('#slideshow');
+$.simpleSlideShow('#slideshow_1');
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+ /*
+	Stylesheet for examples by DevHeart.
+	http://devheart.org/
+ */
+
+#dhe-article-title, #dhe-article-description {font-family:sans-serif;}#dhe-article-title {color:#404244;font-size:26px;font-weight:bold;line-height:1;margin-bottom:10px;}#dhe-article-description {font-size:14px;}#dhe-center-wrapper {width:940px;margin:32px auto 0;border-bottom:4px solid #68A;padding-bottom:18px;}.dhe-link {color:#248;cursor:pointer;text-decoration:underline;}.dhe-link:hover {color:#D52;}

@@ -1,0 +1,44 @@
+<!doctype html>
+ <!-- http://intridea.github.io/sketch.js/ -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>test</title>
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/main.js"></script>
+ 
+  <style>
+	
+  </style>
+  
+  <script>  	
+
+	$(document).ready(function(e) {
+        $('h2').myFirstPlugin({
+			text: "title", 
+			defaultColor:'#FF0F0F' ,
+			overColor:'#FF00FF'
+		});
+		
+		$('span').myFirstPlugin({
+			text: "sub titile 2", 
+			defaultColor:'#000F0F',
+			overColor:'#0F00FF'
+		})
+		
+    });
+	
+  </script>
+
+</head>
+<body>
+
+<h2></h2>
+
+<span></span>
+
+<div> </div>
+
+
+</body>
+</html>
